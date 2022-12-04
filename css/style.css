@@ -27,6 +27,7 @@ p {
 .page-wrapper{
   margin: 10px auto;
   width: 90%;
+  color: rgba(0,0,0,0.7);
 }
 
 .page-section{
@@ -40,42 +41,56 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   text-align: right;
-  border-right: 5px solid blueviolet;
+  border-right: 5px solid rgb(23, 235, 235);
   padding: 20px;
 }
 .content{
   padding: 20px;
   width: 85%;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
+
+
 
 /* Header */
 
 .header{
-  background-color: darkcyan;
+  background-color: rgba(0,0,0,0.7);
   padding: 10px;
+  color: rgb(23, 235, 235);
   /* height: 100px; */
   display: flex;
 }
 .left,
 .right{
   display: flex;
+}
+.left{
+  /* justify-content: center; */
+  padding-left: 30px;
+  align-items: center;
+}
+.right{
   justify-content: center;
   align-items: center;
 }
+.left h1{
+  background-color: rgb(23, 235, 235);
+  padding: 5px;
+  color:rgba(0,0,0,0.7);
+}
+
 .left{
-  width: 25%;
+  width: 50%;
 }
 .right{
-  width: 75%;
+  width: 50%;
 }
 .right a{
-  color: lightblue;
-  padding: 10px;
-  font-size: 18px;
+  font-weight: 600;
+  color: rgb(23, 235, 235);
+  margin: 10px;
   text-decoration: none;
+  border-bottom:2px solid rgb(23, 235, 235);
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -89,30 +104,22 @@ p {
   height: 200px;
   width: 100%;
   display: flex;
-  /* justify-content: center; */
+  justify-content: end;
   align-items: end;
 }
-.avatar{
+.subTitle h2{
+  background-color: rgb(23, 235, 235);
+  padding: 10px;
+  margin: 10px;
+  color: rgba(0,0,0,0.7);
+}
+/* .avatar{
   background-image: url("../images/Haroon-pic.jpg");
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
   width: 25%;
-}
-.subTitle{
-  width: 75%;
-  padding: 20px 40px;
-  color: white;
-  text-align: right;
-
-}
-.subTitle h2{
-  background-color: aqua;
-  color: black;
-}
-
-
-
+} */
 
 
 /* About me  */
@@ -120,6 +127,17 @@ p {
 
 
 /* Work */
+
+.title h4{
+  background-color: rgb(23, 235, 235);
+  padding: 10px;
+  /* margin: 10px 10px 10px 0px; */
+  color: rgba(0,0,0,0.7);
+  margin-bottom: 10px;
+
+  /* font-size: 18px; */
+  /* border-bottom: 5px solid rgb(23, 235, 235); */
+}
 
 .workGrid{
   margin: 0px 5%;
@@ -157,23 +175,24 @@ p {
   background-repeat: no-repeat;
   margin: 5px;
   cursor: pointer;
-  display: grid; 
-  align-content: end;
+  display: flex; 
+  align-items: end;
+  /* justify-content: end; */
 }
 
-.title{
-  background-color: rgba(0,0,0,0.7);
-  padding: 15px;
-  color: white;
-  font-size: 18px;
-  border-bottom: 5px solid #FF6200;
-}
+
 
 
 /* contact me */
 
 #footer a{
-  padding: 40px;
+  color: rgba(0,0,0,0.7);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom:3px solid rgba(0,0,0,0.7);;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin: 10px 30px;
 }
 
 /* Media Queries */
