@@ -246,6 +246,7 @@ p {
     display: flex;
     flex-direction: column;
   }
+  
   .section-title{
     width: 100%;
     text-align: left;
