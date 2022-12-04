@@ -261,7 +261,7 @@ p {
     justify-content: center;
   }
   .workGrid{
-    margin: 0px 5%;
+    /* margin: 0px 5%; */
     display: grid;
     grid-template-rows: 300px 300px 300px 300px 300px;
     grid-template-columns: 1fr;
