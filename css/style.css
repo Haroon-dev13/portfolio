@@ -21,3 +21,223 @@ h6 {
 p {
   margin: 0;
 }
+
+/* General code */
+
+.page-wrapper{
+  margin: 10px auto;
+  width: 90%;
+}
+
+.page-section{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-title{
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-align: right;
+  border-right: 5px solid blueviolet;
+  padding: 20px;
+}
+.content{
+  padding: 20px;
+  width: 85%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+/* Header */
+
+.header{
+  background-color: darkcyan;
+  padding: 10px;
+  /* height: 100px; */
+  display: flex;
+}
+.left,
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left{
+  width: 25%;
+}
+.right{
+  width: 75%;
+}
+.right a{
+  color: lightblue;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Hero banner  */
+
+.hero-banner{
+  background-image: url("../images/02-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: end;
+}
+.avatar{
+  background-image: url("../images/Haroon-pic.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 25%;
+}
+.subTitle{
+  width: 75%;
+  padding: 20px 40px;
+  color: white;
+  text-align: right;
+
+}
+.subTitle h2{
+  background-color: aqua;
+  color: black;
+}
+
+
+
+
+
+/* About me  */
+
+
+
+/* Work */
+
+.workGrid{
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 30vh 30vh 30vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "portfolio1 portfolio1"
+  "portfolio2 portfolio3" "portfolio4 portfolio5";
+}
+
+
+#portfolio1{
+  grid-area: portfolio1;
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+#portfolio2{
+  grid-area: portfolio2;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+#portfolio3{
+  grid-area: portfolio3;
+  background-image: url("../images/02-portfolio-4.jpg");
+}
+#portfolio4{
+  grid-area: portfolio4;
+  background-image: url("../images/02-portfolio-4.jpg");
+}
+#portfolio5{
+  grid-area: portfolio5;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+.workArea{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid; 
+  align-content: end;
+}
+
+.title{
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #FF6200;
+}
+
+
+/* contact me */
+
+#footer a{
+  padding: 40px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 979px) {
+  .header{
+    display: block;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
+  .page-section{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section-title{
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid blueviolet;
+    border-right: none;
+    padding: 5px;
+  }
+  .content{
+    width: 100%;
+  }
+  #footer a{
+    padding: 12px;
+  }
+  
+}
+
+@media only screen and (max-width: 769px) {
+  .page-section{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section-title{
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid blueviolet;
+    border-right: none;
+    padding: 5px;
+  }
+  .content{
+    width: 100%;
+  }
+  .workGrid{
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "portfolio1" "portfolio2" "portfolio3" "portfolio4" "portfolio5";
+  }
+  #footer{
+    display: flex;
+    flex-direction: column;
+  }
+  #footer a{
+    padding: 5px;
+  }
+  
+}
