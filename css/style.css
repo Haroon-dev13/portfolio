@@ -45,8 +45,12 @@ p {
   padding: 20px;
 }
 .content{
-  padding: 20px;
+  padding: 10px;
+  margin: 0px 5%;
   width: 85%;
+}
+#about p{
+  text-align: justify
 }
 
 
@@ -141,7 +145,7 @@ p {
 }
 
 .workGrid{
-  margin: 0px 5%;
+  /* margin: 0px 5%; */
   display: grid;
   grid-template-rows: 60vh 60vh 60vh;
   grid-template-columns: 1fr 1fr;
@@ -195,7 +199,7 @@ p {
   border-bottom:3px solid rgba(0,0,0,0.7);
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
-  margin: 10px 30px;
+  margin: 10px;
 }
 
 /* Media Queries */
@@ -206,6 +210,7 @@ p {
   }
   .left{
     width: 100%;
+    justify-content: center;
   }
   .right{
     width: 100%;
@@ -217,16 +222,20 @@ p {
   }
   .section-title{
     width: 100%;
-    text-align: center;
-    border-bottom: 5px solid blueviolet;
+    text-align: left;
+    border-bottom: 5px solid rgb(23, 235, 235);
     border-right: none;
     padding: 5px;
   }
   .content{
+    margin: 0px;
     width: 100%;
   }
+  .title h4{
+    padding: 5px;
+  }
   #footer a{
-    padding: 12px;
+    padding: 0px;
   }
   
 }
@@ -239,13 +248,16 @@ p {
   }
   .section-title{
     width: 100%;
-    text-align: center;
-    border-bottom: 5px solid blueviolet;
+    text-align: left;
+    border-bottom: 5px solid rgb(23, 235, 235);
     border-right: none;
     padding: 5px;
   }
   .content{
     width: 100%;
+  }
+  .hero-banner{
+    justify-content: center;
   }
   .workGrid{
     margin: 0px 5%;
