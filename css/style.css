@@ -102,11 +102,11 @@ p {
 /* Hero banner  */
 
 .hero-banner{
-  background-image: url("../images/02-hero-bg.jpg");
+  background-image: url("../images/hero-bg1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 250px;
+  height: 400px;
   width: 100%;
   display: flex;
   justify-content: end;
@@ -185,6 +185,10 @@ p {
   display: flex; 
   align-items: end;
   /* justify-content: end; */
+}
+
+.workArea:hover {
+  opacity: 0.7;
 }
 
 

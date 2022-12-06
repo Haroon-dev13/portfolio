@@ -10,13 +10,13 @@ To use this Website you do not need to install any software or tool.You just nee
 This is my Portfolio website.I put all the details about my projects which technology i had used and what skills i have.You will see all details about me on it.Given below are different sizes screen shorts.
 
 * ### Large screenshort:
-![Large](image-url)
+![Large](images/full-screen.png)
 
 * ### Medium screenshort:
-![Medium](image-url)
+![Medium](images/medium-screen.png)
 
 * ### Mobile screenshort:
-![Mobile](image-url)
+![Mobile](images/small-screen.png)
 
 ## Credits
 N/A
