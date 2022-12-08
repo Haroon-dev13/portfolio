@@ -1,7 +1,9 @@
 # Haroon Portfolio
 
 ## Description
-This is my portfolio website.I have made three different sections.First one is About Me you will see my motivation and skills on it.Second one is about my works.You can see my projects what i have made with my skills and Lastly i made a footer with my contact details how you can reach me.
+This is my portfolio website.It is created to show my skills and projects.I have made three different sections.First one is About Me you will see my motivation and skills on it.Second one is about my works.You can see my projects what i have made with my skills and Lastly i made a footer with my contact details how you can reach me.
+Here is the deployed website link [Haroon Portfolio](https://haroon-dev13.github.io/portfolio/)
+
 
 ## Installation
 To use this Website you do not need to install any software or tool.You just need a browser and internet connection to visit this website.
